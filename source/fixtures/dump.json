@@ -752,11 +752,62 @@
   }
 },
 {
+  "model": "tracker.issue",
+  "pk": 16,
+  "fields": {
+    "summary": "test 3",
+    "description": "New test description",
+    "project": 5,
+    "status": 1,
+    "created_at": "2023-04-18T07:46:45.343Z",
+    "updated_at": "2023-04-18T08:21:09.531Z",
+    "is_deleted": true,
+    "deleted_at": "2023-04-18T08:21:09.531Z",
+    "type": [
+      1
+    ]
+  }
+},
+{
+  "model": "tracker.issue",
+  "pk": 17,
+  "fields": {
+    "summary": "test_2",
+    "description": "New Description",
+    "project": 4,
+    "status": 2,
+    "created_at": "2023-04-18T07:47:47.117Z",
+    "updated_at": "2023-04-18T08:22:23.323Z",
+    "is_deleted": true,
+    "deleted_at": "2023-04-18T08:22:23.322Z",
+    "type": [
+      3
+    ]
+  }
+},
+{
+  "model": "tracker.issue",
+  "pk": 18,
+  "fields": {
+    "summary": "Test 13434",
+    "description": "erwewer",
+    "project": 7,
+    "status": 1,
+    "created_at": "2023-04-18T08:23:22.025Z",
+    "updated_at": "2023-04-18T08:23:34.484Z",
+    "is_deleted": true,
+    "deleted_at": "2023-04-18T08:23:34.484Z",
+    "type": [
+      2
+    ]
+  }
+},
+{
   "model": "tracker.project",
   "pk": 4,
   "fields": {
     "name": "Capstone",
-    "description": "",
+    "description": "New Description",
     "start_date": "2023-03-10",
     "end_date": null
   }

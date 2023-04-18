@@ -33,5 +33,10 @@ class IssueDetailView(APIView):
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+    def delete(self, request, pk, format=None):
+        issue = self.get_object(pk)
+        issue.delete()
+        return Response(f"You just deleted issue #{pk}", status=status.HTTP_204_NO_CONTENT)
+
 
 
